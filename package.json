@@ -26,8 +26,8 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "tsc -p .",
+    "build": "rm -rf ./node_modules && tsc -p .",
     "start": "set debug=* && ts-node-dev --respawn --transpileOnly ./src/index.ts",
-    "prod": "tsc && node ./build/app.js"
+    "prod": "node ./build/app.js"
   }
 }
