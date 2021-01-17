@@ -27,6 +27,6 @@
   "scripts": {    
     "build": "tsc -p .",
     "start": "set debug=* && ts-node-dev --respawn --transpileOnly ./src/index.ts",
-    "prod": "node ./build/app.js"
+    "prod": "node ./build/index.js"
   }
 }
