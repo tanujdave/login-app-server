@@ -24,9 +24,8 @@
     "reflect-metadata": "^0.1.10",
     "ts-node-dev": "^1.0.0-pre.44"
   },
-  "scripts": {
-    "tsc": "tsc",
-    "build": "rm -rf ./node_modules && tsc -p .",
+  "scripts": {    
+    "build": "tsc -p .",
     "start": "set debug=* && ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "prod": "node ./build/app.js"
   }
