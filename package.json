@@ -1,7 +1,6 @@
 {
-  "name": "jwt-express-typeorm",
+  "name": "login-server",
   "version": "0.0.1",
-  "description": "Awesome project developed with TypeORM.",
   "devDependencies": {
     "@types/node": "^8.0.29",
     "ts-node": "3.3.0",
@@ -17,18 +16,16 @@
     "body-parser": "^1.18.1",
     "class-validator": "^0.12.2",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.15.4",
     "helmet": "^3.22.1",
     "jsonwebtoken": "^8.5.1",
     "reflect-metadata": "^0.1.10",
-    "sqlite3": "^4.0.3",
-    "ts-node-dev": "^1.0.0-pre.44",
-    "typeorm": "0.2.25"
+    "ts-node-dev": "^1.0.0-pre.44"
   },
   "scripts": {
     "tsc": "tsc",
     "start": "set debug=* && ts-node-dev --respawn --transpileOnly ./src/index.ts",
-    "prod": "tsc && node ./build/app.js",
-    "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run"
+    "prod": "tsc && node ./build/app.js"
   }
 }

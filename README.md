@@ -1,8 +1,6 @@
-# Awesome Project Build with TypeORM
+# Login App server
 
 Steps to run this project:
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
-# jwt-express-typeorm
+1. Run `yarn` command to install dependencies.
+2. Run `yarn start` command to start server.

@@ -1,3 +1,4 @@
 export default {
-  jwtSecret: "@QEGTUI",
+  jwtSecret:
+    "DRq1NoC4Hs6wlm9/9Ena73MQzHuCpoqbTtQ4XMDSPcycu04lQZlLDI31y/TIiQK7e1tnVX4EvvL27skHNH7mlbNEK61d/KEvHXQcfwgtmKq5/sSYuSThM4c379vo6vUvdpGGn31qVIPAI12o88qR2OC93VkMbOAGWpSCGPkQcDTrIQlkam24INfE7yUCjZDOPtjPPxxumRSNMgAQSjZzzkkyUCdn6oqMId/thRVbneXPv+wB9DBQs9c2BtRdzvvzTfc/t9OwPtl9O8pmpT1R39NRPDOjuAHyAFQWzT+crNiQKtiuGonon9N1FKwUluUHoKIg367ITkyYFZyC/wR3Jw==",
 };
