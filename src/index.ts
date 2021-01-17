@@ -6,6 +6,7 @@ import * as helmet from "helmet";
 import * as cors from "cors";
 import routes from "./routes";
 
+const PORT = process.env.PORT || 3001;
 // Create a new express application instance
 const app = express();
 
@@ -20,6 +21,6 @@ app.use(bodyParser.json());
 // Set all routes from routes folder
 app.use("/", routes);
 
-app.listen(3001, () => {
-  console.log("Server started on port 3001");
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
